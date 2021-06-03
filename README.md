@@ -20,9 +20,12 @@
 3. Implement the **MFNN (4 layers: input, hidden layer 1, hidden layer 2 and output layer) for the classification using the vectorization based algorithm**. (Please use dataset.xlsx and hold out cross validation with 70% as training and 30 % as testing instances selection). Plot the cost function vs number of iterations. Evaluate the optimal number of hidden layer neurons based on grid search approach with the maximum accuracy for the test instances as the objective function.)
 4. Implement the **radial basis function neural network (RBFN)** for the classification. (Please use dataset.xlsx and hold out cross validation with 70% as training and 30 % as testing instances selection). Evaluate the optimal number of hidden layer neurons based on grid search approach with the maximum accuracy for the test instances as the objective function.)
 5. Implement a **deep neural network** as shown below. You can use back propagation algorithm, non-linear basis function evaluation and **RBFNN** weight extraction approach for evaluating optimal weights from input to hidden layers. (Please use dataset.xlsx and hold out cross validation with 70% as training and 30 % as testing instances selection).
+
 **Input-FC1-RBFNN-Output**
 
 **Assignment 3:**
 1. The dataset in ‘data_for_cnn.mat’ consists of **1000 ECG signals** and each row corresponds to one ECG signal. The class label for each **ECG signal** is given in ‘class_label. mat’ file. Implement the 1D convolutional neural network with **BPCNN** as the learning algorithm for the evaluation of optimal weight matrices in FC layers and optimal kernels or filters in convolution layer. The network consists of one convolutional layer, one pooling layer and two fully connected (FC) layers. The network flow is given by
+
 **Input-Convolution Layer-Pooling layer-FC1-FC2-Output**
+
 Consider the square loss function as cost function in the output layer. You can consider 20 hidden neurons in the FC2 layer. In the pooling layer, you can use average pooling with down-sampling factor as 2. (For implementation of the **BPCNN** algorithm, please refer to the class notes or slides).
